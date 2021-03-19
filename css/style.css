@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #EFEEE7;
+    --accent-color: #8D7F2E;
+    --button-color: #FF4E00;
+    --text-color: #232323;
+  }
+  /* Global Edits */
+  * {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+  }
+
+  .brand-logo {
+    letter-spacing: -2px;
+    color: var(--text-color) !important;
+  }
+  nav {
+    box-shadow: 0 0 0 0;
+  }
+  
+
+.navText {
+    color: var(--text-color);
+  }
+
+  #mainBody {
+    width: 100vh;
+    height: 88.7vh !important;
+  }
+.container  {
+  width: 100%;
+}
+
+.buttonColor {
+  background-color: var(--button-color) !important;
+}
+
+.row {
+  padding: 10rem;
+}
+
+.btn-large {
+  margin: 2rem 0;
+  background-color: var(--button-color);
+  color: var(--text-color);
+  font-style: strong;
+  font-weight: 700;
+}
