@@ -37,7 +37,9 @@
 }
 
 .row {
-  padding: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-large {
