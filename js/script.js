@@ -1,14 +1,12 @@
+const exploreButton = document.querySelector(".mountain-exp");
 
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems);
-  });
-//   Initialize collapsible (uncomment the lines below if you use the dropdown variation)
-  var collapsibleElem = document.querySelector('.collapsible');
-  var collapsibleInstance = M.Collapsible.init(collapsibleElem);
-  
-// Floating Button
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.fixed-action-btn');
-    var instances = M.FloatingActionButton.init(elems);
-  });
+window.addEventListener("scroll", scrollReveal);
+
+function scrollReveal() {
+  const hikePos = exploreButton.getBoundingClientRect().top;
+  console.log(hikePos);
+  if(hikePos < 0) {
+    exploreButton.style.color = "red"
+  }
+
+}
