@@ -16,10 +16,16 @@
     font-family: 'Quattrocento', serif;
   }
 
+main {
+  position: absolute;
+}
+
 #logo {
   color: var(--text-color);
   font-family: 'Oswald', sans-serif;
+  text-decoration: none;
 }
+
 
 .nav-header {
   min-height: 10vh;
@@ -27,13 +33,144 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: white;
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0;
+  z-index: 2;
+  position: relative;
 }
 
-.line1 .line2 {
+.line1, .line2 {
   width: 3rem;
   height: 0.2rem;
   margin: 0.4rem;
-  background-color: white;
+  background-color: var(--button-color);
   pointer-events: none;
+}
+
+.slide {
+  min-height: 100vh;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-color);
+  background: var(--primary-color);
+}
+
+.hero-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-basis: 25rem;
+  padding-left: 5rem;
+  position: relative;
+}
+
+.hero-img {
+  position: relative;
+  flex: 1;
+  flex-basis: 25rem;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fashion-span {
+  color: rgb(255, 139,93);
+}
+.mountain-span {
+  color: var(--button-color);
+}
+.hike-span {
+  color: rgb(167, 110,231);
+}
+
+.hero-desc h2 {
+  font-family: 'Quattrocento', serif;
+  font-size: 5rem;
+}
+
+.hero-desc p {
+  padding: 3rem 0;
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+.explore {
+  padding: 1rem 2rem;
+  background: none;
+  border: none;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  font-size: 1rem;
+  text-decoration: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.nav-bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--text-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  opacity: 1;
+  clip-path: circle(50px at 100% -10%);
+  -webkit-clip-path: circle(50px at 100% -10%);
+}
+
+.burger {
+  cursor: pointer;
+}
+
+.nav-links {
+  font-size: 3rem;
+  flex-basis: 30rem;
+}
+
+.nav-links h3 {
+  padding: 3rem 0;
+}
+
+.contact {
+  flex-basis: 30rem;
+}
+
+.contact h2 {
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+
+.contact p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+/* .reveal-img, .reveal-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-color);
+  left: 0;
+  top: 0;
+} */
+
+cursor {
+  width: 3rem;
+  height: 3rem;
+  border: 2px var(--text-color);
+  border-radius: 50%;
+  position: absolute;
 }
