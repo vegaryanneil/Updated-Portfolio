@@ -20,7 +20,7 @@
 main {
   position: absolute;
 }
-
+/* Nav Bar  */
 #logo {
   color: var(--text-color);
   font-family: 'Oswald', sans-serif;
@@ -41,7 +41,7 @@ main {
   z-index: 2;
   position: relative;
 }
-
+/* Burger Menu */
 .line1, .line2 {
   width: 3rem;
   height: 0.2rem;
@@ -49,7 +49,7 @@ main {
   background-color: var(--button-color);
   pointer-events: none;
 }
-
+/* Section Setup */
 .slide {
   min-height: 100vh;
   margin: 0 auto;
@@ -60,7 +60,7 @@ main {
   color: var(--text-color);
   background: var(--primary-color);
 }
-
+/* Landing */
 .landing {
   min-height: 100vh;
   margin: 0 auto;
@@ -82,9 +82,26 @@ main {
   padding: 3rem 0;
   font-size: 2rem;
   color: var(--text-color);
-
 }
 
+.landingSubText {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.landing-exp {
+  padding: 1rem 2rem;
+  background: none;
+  border: none;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Sections */
 .hero-desc {
   display: flex;
   flex-direction: column;
@@ -96,6 +113,7 @@ main {
   position: relative;
 }
 
+/* Section Images */
 .hero-img {
   position: relative;
   flex: 1;
@@ -109,14 +127,15 @@ main {
   object-fit: cover;
 }
 
-.fashion-span {
-  color: rgb(255, 139,93);
+/* Color Hierarchy in Text for Section */
+.strategyOne-span, .landing-span {
+  color: var(--button-color)
 }
-.mountain-span {
+.strategyTwo-span {
+  color: var(--accent-color);
+}
+.strategyThree-span {
   color: var(--button-color);
-}
-.hike-span {
-  color: rgb(167, 110,231);
 }
 
 .hero-desc h2 {
@@ -130,6 +149,7 @@ main {
   color: var(--text-color);
 }
 
+/* Call to Action Buttons */
 .explore {
   padding: 1rem 2rem;
   background: none;
@@ -142,6 +162,7 @@ main {
   cursor: pointer;
 }
 
+/* Hamburger Menu Set up */
 .nav-bar{
   position: fixed;
   top: 0;
@@ -157,6 +178,7 @@ main {
   clip-path: circle(50px at 100% -10%);
   -webkit-clip-path: circle(50px at 100% -10%);
 }
+
 
 .burger {
   cursor: pointer;
@@ -184,7 +206,7 @@ main {
   font-size: 1.5rem;
   line-height: 2rem;
 }
-
+/* Hides Page, uses JS animation to reveal page */
 /* .reveal-img, .reveal-text {
   position: absolute;
   width: 100%;
@@ -194,6 +216,7 @@ main {
   top: 0;
 } */
 
+/* cursor */
 cursor {
   width: 3rem;
   height: 3rem;
