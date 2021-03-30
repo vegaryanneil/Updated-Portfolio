@@ -92,13 +92,16 @@ main {
 
 .landing-exp {
   padding: 1rem 2rem;
-  background: none;
+  background: var(--accent-color);
   border: none;
   color: var(--text-color);
   border: 1px solid var(--text-color);
   font-size: 1rem;
   text-decoration: none;
   cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: var(--text-color);
 }
 
 /* Sections */
@@ -146,7 +149,7 @@ main {
 /* Call to Action Buttons */
 .explore {
   padding: 1rem 2rem;
-  background: none;
+  background: var(--accent-color);
   border: none;
   color: var(--text-color);
   border: 1px solid var(--text-color);
@@ -154,6 +157,9 @@ main {
   text-decoration: none;
   align-self: flex-start;
   cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: var(--text-color);
 }
 
 /* Hamburger Menu Set up */
@@ -173,7 +179,7 @@ main {
   -webkit-clip-path: circle(50px at 100% -10%);
 }
 
-
+/* Page when you click on burger menu */
 .burger {
   cursor: pointer;
 }
@@ -185,6 +191,7 @@ main {
 
 .nav-links h3 {
   padding: 3rem 0;
+  cursor: pointer;
 }
 
 .contact {
@@ -223,6 +230,8 @@ main {
   transition-property: background, transform;
   transform-origin: 75% 75%;
 }
+
+/* Hover effect color/scale */
 .cursor.nav-active {
   background:var(--button-color);
   transform: scale(3);
@@ -231,6 +240,8 @@ main {
   background: var(--button-color);
   transform: scale(3);
 }
+
+/* centers the "click" text on cursor */
 .cursor-text {
   position: absolute;
   top: 50%;
