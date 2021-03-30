@@ -92,7 +92,7 @@ main {
 
 .landing-exp {
   padding: 1rem 2rem;
-  background: var(--accent-color);
+  background: var(--button-color);
   border: none;
   color: var(--text-color);
   border: 1px solid var(--text-color);
@@ -132,7 +132,7 @@ main {
 
 /* Color Hierarchy in Text for Section */
 .strategy-span {
-  color: var(--button-color)
+  color: var(--accent-color)
 }
 
 .hero-desc h2 {
@@ -149,7 +149,7 @@ main {
 /* Call to Action Buttons */
 .explore {
   padding: 1rem 2rem;
-  background: var(--accent-color);
+  background: var(--button-color);
   border: none;
   color: var(--text-color);
   border: 1px solid var(--text-color);
