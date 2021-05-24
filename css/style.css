@@ -287,3 +287,14 @@ main {
   margin: 1rem 0;
   list-style: none;
 }
+
+.strategy-span-about {
+  color: var(--button-color);
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.about-links {
+  margin: 7rem;
+  /* padding: 0 2rem; */
+}
