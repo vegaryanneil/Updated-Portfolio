@@ -14,6 +14,17 @@ This is an update to my initial portfolio. This is update comes after diving int
 4. Clean Up Home Page
 5. Responsiveness
 
+## Update as of 5/24/2021
+1. Project Page[✔️]
+2. About Page[✔️]
+3. Service Page[❌]
+4. Clean Up Home Page[✔️]
+5. Responsiveness[❌]
+
+## Description of Updates
+
+I added a project and about page. These pages have links to live demos of the application and repository. The about page has links to social media information. The homepage was cleaned up, then I put an example of one project, and created a jump link. I also added changes to nav bar so users know if they are clickable buttons. I disabled none-working links.
+
 ## Outside Tools Used
 ScrollMagic - Failed
 
