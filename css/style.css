@@ -298,3 +298,8 @@ main {
   margin: 7rem;
   /* padding: 0 2rem; */
 }
+img {
+  background-position: center;
+  max-width: 100vh;
+  max-height: 100vh;
+}
